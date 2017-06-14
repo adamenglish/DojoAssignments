@@ -1,0 +1,10 @@
+@{
+    ViewData["Title"] = "Quoting Dojo";
+}
+<h1>Here are the awesome quotes!</h1>
+<p><h3>"This is a hardcoded quote." -Adam at 1:51pm June 13 2017</h3></p><hr>
+<p><h3>"Wow! Look! Another hardcoded quote." -Adam at 1:52pm June 13 2017</h3</p><hr>
+
+@foreach(var quote in @ViewBag.AllQuotes){
+    <p><h3> @quote["content"], @quote["name"], @quote["created_at"]  </h3></p> <hr>
+}
