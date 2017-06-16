@@ -1,0 +1,8 @@
+C:\Users\Adam\Documents\CodingTracks\C#\BlackJackHack\bin\Debug\netcoreapp1.1\BlackJackHack.deps.json
+C:\Users\Adam\Documents\CodingTracks\C#\BlackJackHack\bin\Debug\netcoreapp1.1\BlackJackHack.runtimeconfig.json
+C:\Users\Adam\Documents\CodingTracks\C#\BlackJackHack\bin\Debug\netcoreapp1.1\BlackJackHack.runtimeconfig.dev.json
+C:\Users\Adam\Documents\CodingTracks\C#\BlackJackHack\bin\Debug\netcoreapp1.1\BlackJackHack.dll
+C:\Users\Adam\Documents\CodingTracks\C#\BlackJackHack\bin\Debug\netcoreapp1.1\BlackJackHack.pdb
+C:\Users\Adam\Documents\CodingTracks\C#\BlackJackHack\obj\Debug\netcoreapp1.1\BlackJackHack.AssemblyInfo.cs
+C:\Users\Adam\Documents\CodingTracks\C#\BlackJackHack\obj\Debug\netcoreapp1.1\BlackJackHack.dll
+C:\Users\Adam\Documents\CodingTracks\C#\BlackJackHack\obj\Debug\netcoreapp1.1\BlackJackHack.pdb
