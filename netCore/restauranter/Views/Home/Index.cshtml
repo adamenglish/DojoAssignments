@@ -1,0 +1,18 @@
+@{
+    ViewData["Title"] = "Restauranter";
+}
+<h1>Write a new Review:</h1>
+<form action = "Process" method = "POST">
+    <p><h3>Reviewer Name: <input type="text" name="Reviewer"></h3></p>
+    <p><h3>Restaurant Name: <input type="text" name="Restaurant"></h3></p>
+    <p><h3>Review: <input type="textarea" name="Reviews"></h3></p>
+    <p><h3>Date of Visit: <input type ="date" name="Date"></h3></p>
+    <p><h3>Stars: <select name = "Stars">
+             <option value = "1">1</option>
+             <option value = "2">2</option>
+             <option value = "3">3</option>
+             <option value = "4">4</option>
+             <option value = "5">5</option>   
+    </select></h3></p>
+    <button type ="submit">Submit</button>
+</form>

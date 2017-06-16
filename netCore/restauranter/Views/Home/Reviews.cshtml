@@ -1,0 +1,8 @@
+
+@foreach(var review in @ViewBag.AllReviews)
+{
+    <h1><p><b>Review for:</b> @review.Restaurant <b>Stars:</b> @review.Stars</p></h1>
+    <h3><p><b>Reviewer:</b> @review.Reviewer visted on @review.Date.ToString("MMMM dd, yyyy")</p></h3>
+    <h3><p><b>Review:</b> @review.Reviews</p></h3>
+    <hr>
+}
