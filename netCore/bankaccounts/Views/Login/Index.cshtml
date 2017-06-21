@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Login To Your Account</h1>
+<form action="/login" method="post">
+<p><h3>Email: <input type="text" name="email"></h3></p>
+<p><h3>Password: <input type="password" name="password"></h3></p>
+<button type ="submit">Submit</button>
+</form>
+
+<br>
+<p><a href="register">Need to Register a New User? Click here!</a></p>
+
+@ViewBag.LoginError;

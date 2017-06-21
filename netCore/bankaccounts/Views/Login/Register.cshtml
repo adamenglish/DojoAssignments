@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Form Submission";
+}
+
+<h1>Register a New User</h1>
+<form action="/process" method="post">
+<p><h3>First Name: <input type="text" name="firstname"></h3></p>
+<p><h3>Last Name: <input type="text" name="lastname"></h3></p>
+<p><h3>Email: <input type="text" name="email"></h3></p>
+<p><h3>Password: <input type="password" name="password"></h3></p>
+<p><h3>Password Confirmation: <input type="password" name="passwordconfirmation"></h3></p>
+<button type ="submit">Submit</button>
+</form>
+<br>
+<a href="/">Already registered?</a>
+
+<div>
+    @{
+        foreach(var error in ViewBag.Errors)
+        {
+            //If there are any errors for a field...
+            if(@error.Errors.Count > 0)
+            {
+                // We show the first error for that field
+                <p>@error.Errors[0].ErrorMessage</p>
+            }
+        }
+    }
+</div>
